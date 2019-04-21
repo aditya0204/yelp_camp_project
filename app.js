@@ -11,9 +11,7 @@ var User=require("./models/user");
 
 
 
-mongoose.connect("mongodb://aditya0204:aditya1234@ds151382.mlab.com:51382/yelp_camp",{useNewUrlParser:true});
-
-//mongoose.connect("mongodb://localhost:27017/yelp_camp",{ useNewUrlParser: true });
+mongoose.connect("mongodb://localhost:27017/yelp_camp",{ useNewUrlParser: true });
 
 //
 app.use(bodyParser.urlencoded({extended:true}));
